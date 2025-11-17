@@ -1,0 +1,743 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    padding: 15px 40px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+}
+
+/* Menu links */
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.nav-links li a:hover{
+    color: #007bff;
+}
+
+/* Buttons */
+.nav-buttons{
+    display: flex;
+    gap: 15px;
+}
+
+.btn{
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* Sign In Button */
+.sign-in{
+    border: 2px solid #007bff;
+    color: #007bff;
+}
+
+.sign-in:hover{
+    background: #007bff;
+    color: white;
+}
+
+/* Sign Up Button */
+.sign-up{
+    background: #007bff;
+    color: white;
+}
+
+.sign-up:hover{
+    background: #005dc1;
+}
+
+
+
+
+body {
+    background: #ffffff;
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 8%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.hero-text h1 span {
+    color: #2d74ff;
+}
+
+.hero-text p {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #666;
+}
+
+.store-buttons {
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.store-btn {
+    width: 140px;
+    cursor: pointer;
+}
+
+.appstore {
+    width: 160px;
+}
+
+.hero-image img {
+    width: 500px;
+    max-width: 100%;
+    
+
+}
+
+/* SEARCH BOX */
+.search-box {
+    width: 85%;
+    margin: auto;
+    background: #fff;
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    margin-top: -40px;
+}
+
+.search-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.search-item label {
+    font-size: 14px;
+    color: #666;
+}
+
+.search-item input {
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.icon {
+    font-size: 22px;
+}
+
+.search-btn {
+    background: #2d74ff;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+.steps-section{
+    width: 100%;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.how-btn{
+    background: #e3f0ff;
+    color: #3b7eff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.steps-header h2{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.steps-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.step-box{
+    background: #f4f8ff;
+    padding: 25px 20px;
+    border-radius: 15px;
+    width: 30%;
+    transition: 0.3s ease;
+}
+
+.step-box:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.step-box .icon{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.step-box h3{
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.step-box p{
+    font-size: 13px;
+    color: #555;
+}
+
+
+
+
+
+.brand-logos{
+    width: 100%;
+    padding: 40px 0;
+}
+
+.brand-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.brand-container img{
+    width: 120px;
+    opacity: 0.6;
+    transition: 0.3s ease;
+}
+
+.brand-container img:hover{
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+/* WHY CHOOSE US SECTION */
+.why-choose{
+    width: 100%;
+    display: flex;
+    padding: 70px 5%;
+    gap: 50px;
+    align-items: center;
+}
+
+.choose-left .hero-car{
+    width: 550px;
+}
+
+.choose-right .tag{
+    color: #3f72ff;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.feature{
+    display: flex;
+    align-items: start;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.feature .icon{
+    font-size: 26px;
+    color: #3f72ff;
+}
+
+.feature h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.feature p{
+    font-size: 14px;
+    color: #666;
+}
+
+/* POPULAR CAR SECTION */
+.popular{
+    margin-top: 50px;
+    padding: 20px 5%;
+}
+
+.center{
+    text-align: center;
+}
+
+.car-grid{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.car-card{
+    background: #fff;
+    padding: 20px;
+    border-radius: 18px;
+    box-shadow: 0 8px 35px rgba(0,0,0,0.05);
+    transition: 0.2s;
+}
+
+.car-card:hover{
+    transform: translateY(-5px);
+}
+
+.car-card img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.car-card h3{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.rating{
+    font-size: 14px;
+    color: #444;
+    margin: 8px 0;
+}
+
+.rating i{
+    color: #f2b200;
+}
+
+.car-info{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #777;
+    margin: 10px 0;
+}
+
+.price{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.price span{
+    font-size: 14px;
+    color: #666;
+}
+
+.rent-btn{
+    margin-top: 12px;
+    width: 100%;
+    padding: 12px;
+    background: #3f72ff;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.rent-btn:hover{
+    background: #1e4bd8;
+}
+
+
+
+
+/* reveiws scetion start */
+.testimonials{
+    text-align: center;
+    padding: 60px 5%;
+}
+
+.test-tag{
+    color: #3f72ff;
+    font-size: 13px;
+    font-weight: 600;
+    background: #e9f0ff;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 6px 16px;
+    border-radius: 12px;
+}
+
+.test-title{
+    font-size: 32px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.test-container{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
+
+.test-card{
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+    overflow: hidden;
+    transition: .3s;
+}
+
+.test-card:hover{
+    transform: translateY(-6px);
+}
+
+.test-img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.test-content{
+    padding: 20px;
+    text-align: left;
+}
+
+.test-content h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.test-content h3 span{
+    font-size: 16px;
+    color: #555;
+    font-weight: 500;
+}
+
+.stars{
+    color: #f2b200;
+    font-size: 18px;
+    margin: 6px 0;
+}
+
+.test-content p{
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0 15px;
+}
+
+.name{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.location{
+    font-size: 13px;
+    color: #888;
+}
+/* reveiws scetion start */
+
+
+/* DOWNLOAD SECTION */
+.download-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 5%;
+    gap: 40px;
+    background: #f7f9fc;
+}
+
+.download-left{
+    max-width: 450px;
+}
+
+.download-btn{
+    background: #dfe9ff;
+    color: #3f72ff;
+    padding: 8px 22px;
+    border: none;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.download-left h2{
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.download-left h2 span{
+    color: #3f72ff;
+}
+
+.download-left p{
+    margin: 15px 0 25px;
+    color: #555;
+    font-size: 15px;
+}
+
+.store-buttons img{
+    width: 160px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.phone-img{
+    width: 360px;
+}
+
+/* FOOTER */
+.footer{
+    background: #022235;
+    padding: 60px 5% 20px;
+    color: #d9e7ec;
+}
+
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 40px;
+}
+
+.footer-logo{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.footer-col h4{
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.footer-col a{
+    display: block;
+    text-decoration: none;
+    color: #c8d8e2;
+    margin-bottom: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.footer-col a:hover{
+    color: #ffffff;
+}
+
+.social i{
+    font-size: 20px;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social i:hover{
+    color: white;
+}
+
+.footer-bottom{
+    text-align: center;
+    color: #89a7b9;
+    margin-top: 40px;
+    padding-top: 15px;
+    border-top: 1px solid #0d3e55;
+    font-size: 14px;
+}
+    
+
+
+/* ============================
+   MOBILE RESPONSIVE (max-width: 768px)
+   ============================ */
+@media (max-width: 768px){
+
+    /* GENERAL FIX */
+    body, html {
+        overflow-x: hidden;
+    }
+    * {
+        text-align: center !important;
+    }
+
+    /* NAVBAR */
+    .navbar{
+        justify-content: center;
+        padding: 15px 10px;
+    }
+    .logo{
+        margin: auto;
+    }
+    .nav-links,
+    .nav-buttons{
+        display: none;
+    }
+
+    /* HERO SECTION */
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        padding: 3rem 5%;
+    }
+
+    .hero-text{
+        width: 100%;
+    }
+
+    .hero-image img{
+        width: 85%;
+        margin-top: 20px;
+    }
+
+    /* SEARCH BOX */
+    .search-box{
+        flex-direction: column;
+        text-align: center;
+        gap: 18px;
+        padding: 25px;
+    }
+
+    .search-item{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .search-btn{
+        width: 100%;
+    }
+
+    /* STEPS SECTION */
+    .steps-container{
+        flex-direction: column;
+        width: 90%;
+    }
+    .step-box{
+        width: 100%;
+    }
+
+    /* BRANDS */
+    .brand-container{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* WHY CHOOSE US */
+    .why-choose{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .choose-left img{
+        width: 85%;
+        margin: auto;
+    }
+
+    .feature{
+        justify-content: center;
+        text-align: center !important;
+    }
+
+    /* POPULAR CARS */
+    .car-grid{
+        grid-template-columns: 1fr;
+    }
+
+    /* REVIEWS */
+    .test-container{
+        grid-template-columns: 1fr;
+    }
+    .test-content{
+        text-align: center;
+    }
+
+    /* DOWNLOAD SECTION */
+    .download-section{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .phone-img{
+        width: 70%;
+    }
+
+    /* FOOTER */
+    .footer-container{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+
+/* ============================
+   SMALL MOBILE (max-width: 480px)
+   ============================ */
+@media (max-width: 480px){
+
+    .hero-text h1{
+        font-size: 28px;
+    }
+
+    .store-buttons{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .test-title{
+        font-size: 26px;
+    }
+
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+}
